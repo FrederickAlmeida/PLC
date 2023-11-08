@@ -1,0 +1,2 @@
+# PLC
+Repository for the PARADIGMAS de LINGUAGENS COMPUTACIONAIS class
