@@ -55,3 +55,17 @@ fourEqualTE :: Integer -> Integer -> Integer -> Integer -> Bool
 fourEqualTE m n p q
     | (treeEqual m n p) && (treeEqual n p q) = True
     | otherwise = False
+
+-- exercicio 3.11
+-- treeEqual (2+5) 5 (11 `div` 2) : false
+-- mystery (2+4) 5 (11 ‘div‘ 2) : true
+-- threeDifferent (2+4) 5 (11 ‘div‘ 2) : false
+-- fourEqual (2+3) 5 (11 ‘div‘ 2) (21 ‘mod‘ 11) : false
+
+-- exercicio 3.13
+-- max (3-2) (3*8) : 24
+-- maxThree (4+5) (2*6) (100 `div` 7) : 14
+
+-- exercicio 3.14
+-- min and minThree
+    
